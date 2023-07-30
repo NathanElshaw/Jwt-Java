@@ -2,6 +2,7 @@ package ne;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Db_Connection Db_Connect = new Db_Connection();
+        Db_Connect.main();
     }
 }
